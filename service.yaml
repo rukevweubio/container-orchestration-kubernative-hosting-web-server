@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:  # Fixed 'matedata' typo
+  name: my-app-service
+  labels:
+    app: my-app-deployment-app
+    type: front-end
+spec:
+  type: NodePort  # 'port' should be 'type' for Service type
+  ports:
+    - targetPort: 80  # Fixed 'targetport' to 'targetPort'
+      port: 80
+      nodePort: 30009  # Fixed 'Nodeport' to 'nodePort' (case-sensitive)
+  selector:
+    app: my-app-deployment-app  # Removed 'labels:' as 'selector' directly matches labels
+    type: front-end
+
