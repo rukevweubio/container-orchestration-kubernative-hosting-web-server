@@ -90,5 +90,6 @@ spec:
 
 - Replace `<repository-url>` with the actual URL of this repository.
 - Ensure your Kubernetes cluster allows external traffic to the specified NodePort.
+![the website hosted my nginx](
 
 Feel free to contribute or raise issues if you encounter any problems!
