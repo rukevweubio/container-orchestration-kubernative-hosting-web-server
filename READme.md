@@ -90,6 +90,12 @@ spec:
 
 - Replace `<repository-url>` with the actual URL of this repository.
 - Ensure your Kubernetes cluster allows external traffic to the specified NodePort.
-![the website hosted my nginx](
+![the website hosted my nginx](https://github.com/rukevweubio/container-orchestration-kubernative-hosting-web-server/blob/main/picture/Screenshot%20(584).png)
+
+![the website hosted my nginx](https://github.com/rukevweubio/container-orchestration-kubernative-hosting-web-server/blob/main/picture/Screenshot%20(583).png)
+
+![the website hosted my nginx](https://github.com/rukevweubio/container-orchestration-kubernative-hosting-web-server/blob/main/picture/Screenshot%20(588).png)
+
+![the website hosted my nginx](https://github.com/rukevweubio/container-orchestration-kubernative-hosting-web-server/blob/main/picture/Screenshot%20(586).png)
 
 Feel free to contribute or raise issues if you encounter any problems!
